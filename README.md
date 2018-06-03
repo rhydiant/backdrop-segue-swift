@@ -1,1 +1,28 @@
-# backdrop-segue-swift
+# Backdrop Segue
+
+A backdrop segue proving custom `UIStoryboardSegue`'s to present and dismiss a `UIViewController` using the backdrop UI pattern.
+
+![](./Screenshots/1.png)
+![](./Screenshots/2.png)
+![](./Screenshots/3.png)
+![](./Screenshots/4.png)
+
+## Usage
+
+### Segue
+
+In your storyboard, create a segue as usual between two view controllers. Select the segue and in the Attributes Inspector set the Class to `BackdropPresentingSegue` and Kind to `custom`.
+
+### Unwind Segue
+
+Add the following method to your first view controller, in order to setup an unwind segue:
+
+```swift
+@IBAction func unwindSegue(segue: UIStoryboardSegue) { }
+```
+
+Then, in your storyboard, create an unwind segue to your view controller's "Exit".  Select the segue and in the Attributes Inspector set the Class to `BackdropDismissSegue ` and Kind to `custom`.
+
+## License
+
+WeatherKit is released under the [MIT License](LICENSE.md).
