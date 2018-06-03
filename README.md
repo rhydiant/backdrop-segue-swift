@@ -25,4 +25,4 @@ Then, in your storyboard, create an unwind segue to your view controller's "Exit
 
 ## License
 
-WeatherKit is released under the [MIT License](LICENSE.md).
+Backdrop Segue is released under the [MIT License](LICENSE.md).
