@@ -1,6 +1,6 @@
 # Backdrop Segue ![Supported iOS Versions](https://img.shields.io/badge/Supported_iOS_Versions-11.0+-blue.svg?style=flat)
 
-A backdrop segue proving custom `UIStoryboardSegue`'s to present and dismiss a `UIViewController` using the backdrop UI pattern.
+A backdrop segue providing custom `UIStoryboardSegue`'s to present and dismiss a `UIViewController` using the backdrop UI pattern.
 
 ![](./Screens/1.png)
 ![](./Screens/2.png)
