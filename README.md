@@ -2,10 +2,10 @@
 
 A backdrop segue proving custom `UIStoryboardSegue`'s to present and dismiss a `UIViewController` using the backdrop UI pattern.
 
-![](./Screenshots/1.png)
-![](./Screenshots/2.png)
-![](./Screenshots/3.png)
-![](./Screenshots/4.png)
+![](./Screens/1.png)
+![](./Screens/2.png)
+![](./Screens/3.png)
+![](./Screens/4.png)
 
 ## Usage
 
